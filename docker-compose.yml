@@ -1,0 +1,13 @@
+
+
+
+version: '3.8'
+services:
+  auth-app-container:
+    image: php:8.3-apache
+    restart: no
+    ports:
+      - "8083:80"
+    volumes:
+      - ./app:/var/www/html
+
