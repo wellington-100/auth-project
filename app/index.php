@@ -1,9 +1,7 @@
-<?
-    // import the auth library
+<?php
+    // require_once './master/master.php';
     require_once 'auth.php';
+    require 'hello.php';
 
-    // register another user
-    // register('testuser5', 'tuser5@email.com', '123456');
-    // var_dump(search('testuser2'));
-    // var_dump(authenticate('testuser1', '123456'));
+    
 ?>
