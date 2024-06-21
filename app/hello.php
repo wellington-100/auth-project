@@ -1,5 +1,4 @@
-<?php
-
+<?
     session_start();
 
     if (!isset($_SESSION['views'])){
@@ -14,15 +13,3 @@
     }
 
     print '</br> Your visits: ' . $_SESSION['views'] . ' times';
-
-    // unset($_SESSION['views']);
-
-
-    // HW1: create counter.php
-    //  1.check first visit
-    //  2.set the $views
-    //  3.increase $views
-    //  4.print counter
-
-    // HW2: set a banner for first 3 visits
-?>

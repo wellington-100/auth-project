@@ -1,4 +1,4 @@
-<?php
+<?
 session_start(); // Start the session at the beginning
 
     require_once 'auth.php';

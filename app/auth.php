@@ -1,6 +1,6 @@
 <?
     function register($username, $email, $password){
-        // 1. check if the username is available
+
         if (search($username)) {
             print('Error: the username is taken');
         } else {
@@ -90,6 +90,3 @@
         fclose($fp);
         return $user;
     }
-
-
-?>

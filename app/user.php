@@ -7,4 +7,3 @@ function renderProfile(array $user): string {
 
     return $template;
 }
-?>
